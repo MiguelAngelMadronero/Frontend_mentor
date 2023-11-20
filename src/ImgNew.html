@@ -1,0 +1,19 @@
+
+export const ImgNew = ({title,text,number,imagen}) => {
+  return (
+    
+    <div className='flex mt-8 gap-10'>
+       <img src={imagen} alt="foto pc" className="w-full h-full" />
+        <div >
+        <h1 className='text-[40px] font-bold text-GrayishBlue'> {number}</h1>
+        <div className='items-center'>
+        <h2 className='text-[25px] font-bold'>{title}</h2>
+        <p className='mt-12'>{text}</p>
+        </div>
+        </div>
+        
+     
+    </div>
+  )
+}
+
